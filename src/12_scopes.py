@@ -6,6 +6,7 @@ x = 12
 
 def change_x():
     x = 99
+    return x
 
 change_x()
 
@@ -20,6 +21,7 @@ def outer():
 
     def inner():
         y = 999
+        return y
 
     inner()
 
